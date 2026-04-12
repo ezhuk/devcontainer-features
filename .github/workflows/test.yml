@@ -19,7 +19,6 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 24.x
-          cache: 'npm'
       - run: |
           npm install -g @devcontainers/cli
           devcontainer features test --base-image mcr.microsoft.com/devcontainers/base:ubuntu-24.04 ./src
