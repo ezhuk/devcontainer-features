@@ -10,3 +10,5 @@ curl -fsSL -o cmake.sh "https://github.com/Kitware/CMake/releases/download/v${VE
 
 bash cmake.sh --skip-license --prefix=/usr/local
 rm cmake.sh
+
+cmake --version
