@@ -1,0 +1,24 @@
+# test.yml
+
+name: test
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize]
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24.x
+      - run: |
+          npm install -g @devcontainers/cli
+          devcontainer features test --base-image mcr.microsoft.com/devcontainers/base:ubuntu-24.04 ./src

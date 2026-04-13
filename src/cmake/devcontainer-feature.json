@@ -1,0 +1,16 @@
+{
+  "id": "cmake",
+  "version": "1.0.0",
+  "name": "CMake",
+  "description": "Install a CMake release from the official repository.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "4.3.1",
+      "description": "CMake version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
