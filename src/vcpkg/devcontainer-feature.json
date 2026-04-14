@@ -1,0 +1,16 @@
+{
+  "id": "vcpkg",
+  "version": "1.0.0",
+  "name": "vcpkg",
+  "description": "Install a vcpkg release from the official repository.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "2026.03.18",
+      "description": "vcpkg version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
