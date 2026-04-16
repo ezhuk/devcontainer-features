@@ -1,0 +1,16 @@
+{
+  "id": "bazel",
+  "version": "1.0.0",
+  "name": "Bazel",
+  "description": "Install a Bazelisk release from the official repository.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "1.28.1",
+      "description": "Bazelisk version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
