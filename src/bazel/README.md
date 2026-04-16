@@ -7,7 +7,7 @@ Installs a Bazelisk release from the official repository.
 ```json
 "features": {
   "ghcr.io/ezhuk/devcontainer-features/bazel:1": {
-    "version": "v1.28.1"
+    "version": "1.28.1"
   }
 }
 ```
@@ -16,4 +16,4 @@ Installs a Bazelisk release from the official repository.
 
 | Option   | Type   | Default | Description                 |
 |----------|--------|---------|-----------------------------|
-| version  | string | v1.28.1 | Bazelisk version to install |
+| version  | string | 1.28.1  | Bazelisk version to install |
