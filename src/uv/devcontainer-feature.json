@@ -1,0 +1,16 @@
+{
+  "id": "uv",
+  "version": "1.0.0",
+  "name": "uv",
+  "description": "Install a uv release from the official repository.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "0.11.7",
+      "description": "uv version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
