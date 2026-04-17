@@ -16,4 +16,4 @@ Installs a vcpkg release from the official repository.
 
 | Option   | Type   | Default    | Description              |
 |----------|--------|------------|--------------------------|
-| version  | string | 2026.03/18 | vcpkg version to install |
+| version  | string | 2026.03.18 | vcpkg version to install |

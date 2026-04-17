@@ -5,6 +5,7 @@ VERSION="${VERSION:-4.3.1}"
 
 apt-get update
 apt-get install -y --no-install-recommends curl ca-certificates
+rm -rf /var/lib/apt/lists/*
 
 curl -fsSL -o cmake.sh "https://github.com/Kitware/CMake/releases/download/v${VERSION}/cmake-${VERSION}-linux-x86_64.sh"
 
