@@ -10,8 +10,10 @@ rm -rf /var/lib/apt/lists/*
 
 rm -rf "${ROOT}"
 git clone --branch "${VERSION}" --depth 1 https://github.com/microsoft/vcpkg.git "${ROOT}"
+
 "${ROOT}/bootstrap-vcpkg.sh" -disableMetrics
 ln -sf "${ROOT}/vcpkg" /usr/local/bin/vcpkg
+
 cat >/etc/profile.d/vcpkg.sh <<EOF
 export VCPKG_ROOT=${ROOT}
 EOF
