@@ -1,6 +1,7 @@
 ## Development Container Features
 
 [![test](https://github.com/ezhuk/devcontainer-features/actions/workflows/test.yml/badge.svg)](https://github.com/ezhuk/devcontainer-features/actions/workflows/test.yml)
+[![prod](https://github.com/ezhuk/devcontainer-features/actions/workflows/prod.yml/badge.svg)](https://github.com/ezhuk/devcontainer-features/actions/workflows/prod.yml)
 
 A collection of reusable [Development Container Features](https://containers.dev/implementors/features/) that install and configure common development tools in a container to help create consistent environments and reproducible builds.
 
