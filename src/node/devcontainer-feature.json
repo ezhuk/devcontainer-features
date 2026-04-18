@@ -1,0 +1,16 @@
+{
+  "id": "node",
+  "version": "1.0.0",
+  "name": "Node",
+  "description": "Install a Node.js release from the official repository.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "24.15.0",
+      "description": "Node.js version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
