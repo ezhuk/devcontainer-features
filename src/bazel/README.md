@@ -1,6 +1,6 @@
-# Bazel Dev Container Feature
+# Bazel Development Container Feature
 
-Installs a Bazelisk release from the official repository.
+Installs a [Bazelisk](https://github.com/bazelbuild/bazelisk) release from the official repository.
 
 ## Example Usage
 
