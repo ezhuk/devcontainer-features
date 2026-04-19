@@ -1,6 +1,6 @@
-# vcpkg Dev Container Feature
+# vcpkg Development Container Feature
 
-Installs a vcpkg release from the official repository.
+Installs a [vcpkg](https://github.com/microsoft/vcpkg) release from the official repository.
 
 ## Example Usage
 
