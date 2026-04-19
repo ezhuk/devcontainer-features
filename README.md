@@ -21,6 +21,17 @@ Add one or more features to your `devcontainer.json`:
 }
 ```
 
+## Features
+
+The collection includes the following features:
+
+- [bazel](https://github.com/ezhuk/devcontainer-features/tree/main/src/bazel) - Installs `Bazel` build system.
+- [cmake](https://github.com/ezhuk/devcontainer-features/tree/main/src/cmake) - Installs `CMake` build system.
+- [ninja](https://github.com/ezhuk/devcontainer-features/tree/main/src/ninja) - Installs `Ninja` build system.
+- [node](https://github.com/ezhuk/devcontainer-features/tree/main/src/node) - Installs `Node.js` runtime environment.
+- [uv](https://github.com/ezhuk/devcontainer-features/tree/main/src/uv) - Installs `uv` package and project manager.
+- [vcpkg](https://github.com/ezhuk/devcontainer-features/tree/main/src/vcpkg) - Installs and bootstraps `vcpkg` package manager.
+
 ## License
 
 The features are licensed under the [MIT License](https://github.com/ezhuk/devcontainer-features?tab=MIT-1-ov-file).
