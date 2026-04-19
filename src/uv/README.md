@@ -1,6 +1,6 @@
-# uv Dev Container Feature
+# uv Development Container Feature
 
-Installs a uv release from the official repository.
+Installs a [uv](https://github.com/astral-sh/uv) release from the official repository.
 
 ## Example Usage
 

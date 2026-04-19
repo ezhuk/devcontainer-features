@@ -1,6 +1,6 @@
-# CMake Dev Container Feature
+# CMake Development Container Feature
 
-Installs a CMake release from the official repository.
+Installs a [CMake](https://github.com/kitware/cmake) release from the official repository.
 
 ## Example Usage
 

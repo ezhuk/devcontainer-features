@@ -1,6 +1,6 @@
-# Ninja Dev Container Feature
+# Ninja Development Container Feature
 
-Installs a Ninja release from the official repository.
+Installs a [Ninja](https://github.com/ninja-build/ninja) release from the official repository.
 
 ## Example Usage
 
