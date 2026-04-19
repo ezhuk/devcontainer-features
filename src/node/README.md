@@ -1,6 +1,6 @@
-# Node.js Dev Container Feature
+# Node.js Development Container Feature
 
-Installs a Node.js release from the official repository.
+Installs a [Node.js](https://nodejs.org) release from the official repository.
 
 ## Example Usage
 
