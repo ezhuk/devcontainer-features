@@ -9,7 +9,7 @@ apt-get install -y --no-install-recommends git curl ca-certificates
 rm -rf /var/lib/apt/lists/*
 
 rm -rf "${ROOT}"
-git clone --branch "${VERSION}" --depth 1 https://github.com/microsoft/vcpkg.git "${ROOT}"
+git clone --branch "${VERSION}" https://github.com/microsoft/vcpkg.git "${ROOT}"
 
 "${ROOT}/bootstrap-vcpkg.sh" -disableMetrics
 ln -sf "${ROOT}/vcpkg" /usr/local/bin/vcpkg
