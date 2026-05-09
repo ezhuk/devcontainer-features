@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-VERSION="${VERSION:-2026.03.18}"
+VERSION="${VERSION:-2026.04.27}"
 ROOT="${ROOT:-/usr/local/vcpkg}"
 
 apt-get update
