@@ -6,7 +6,7 @@
   "options": {
     "version": {
       "type": "string",
-      "default": "1.28.1",
+      "default": "1.29.0",
       "description": "Bazelisk version to install."
     }
   },
