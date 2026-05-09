@@ -1,6 +1,6 @@
 {
   "id": "vcpkg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "vcpkg",
   "description": "Install a vcpkg release from the official repository.",
   "options": {
