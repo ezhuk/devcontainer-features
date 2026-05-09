@@ -7,7 +7,7 @@ Installs a [vcpkg](https://github.com/microsoft/vcpkg) release from the official
 ```json
 "features": {
   "ghcr.io/ezhuk/devcontainer-features/vcpkg:1": {
-    "version": "2026.03.18"
+    "version": "2026.04.27"
   }
 }
 ```
@@ -16,4 +16,4 @@ Installs a [vcpkg](https://github.com/microsoft/vcpkg) release from the official
 
 | Option   | Type   | Default    | Description              |
 |----------|--------|------------|--------------------------|
-| version  | string | 2026.03.18 | vcpkg version to install |
+| version  | string | 2026.04.27 | vcpkg version to install |
