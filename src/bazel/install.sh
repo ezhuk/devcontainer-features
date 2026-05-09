@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-VERSION="${VERSION:-1.28.1}"
+VERSION="${VERSION:-1.29.0}"
 
 apt-get update
 apt-get install -y --no-install-recommends curl ca-certificates
