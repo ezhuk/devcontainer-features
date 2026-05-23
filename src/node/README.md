@@ -7,7 +7,7 @@ Installs a [Node.js](https://nodejs.org) release from the official repository.
 ```json
 "features": {
   "ghcr.io/ezhuk/devcontainer-features/node:1": {
-    "version": "24.15.0"
+    "version": "24.16.0"
   }
 }
 ```
@@ -16,4 +16,4 @@ Installs a [Node.js](https://nodejs.org) release from the official repository.
 
 | Option   | Type   | Default | Description                |
 |----------|--------|---------|----------------------------|
-| version  | string | 24.15.0 | Node.js version to install |
+| version  | string | 24.16.0 | Node.js version to install |
