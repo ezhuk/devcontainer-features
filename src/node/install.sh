@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-VERSION="${VERSION:-24.15.0}"
+VERSION="${VERSION:-24.16.0}"
 
 apt-get update
 apt-get install -y --no-install-recommends curl ca-certificates xz-utils
