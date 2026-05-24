@@ -1,0 +1,16 @@
+{
+  "id": "gcc",
+  "version": "1.0.0",
+  "name": "GCC",
+  "description": "Install a GCC release from xPack.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "15.2.0-1",
+      "description": "GCC version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
