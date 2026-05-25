@@ -1,0 +1,16 @@
+{
+  "id": "llvm",
+  "version": "1.0.0",
+  "name": "LLVM",
+  "description": "Install an LLVM release from the official repository.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "22.1.6",
+      "description": "LLVM version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
