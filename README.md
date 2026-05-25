@@ -28,6 +28,7 @@ The collection includes the following features:
 - [bazel](https://github.com/ezhuk/devcontainer-features/tree/main/src/bazel) - Installs `Bazel` build system.
 - [cmake](https://github.com/ezhuk/devcontainer-features/tree/main/src/cmake) - Installs `CMake` build system.
 - [gcc](https://github.com/ezhuk/devcontainer-features/tree/main/src/gcc) - Installs `GCC` compiler collection.
+- [llvm](https://github.com/ezhuk/devcontainer-features/tree/main/src/llvm) - Installs `LLVM` compiler ifrastructure.
 - [ninja](https://github.com/ezhuk/devcontainer-features/tree/main/src/ninja) - Installs `Ninja` build system.
 - [node](https://github.com/ezhuk/devcontainer-features/tree/main/src/node) - Installs `Node.js` runtime environment.
 - [uv](https://github.com/ezhuk/devcontainer-features/tree/main/src/uv) - Installs `uv` package and project manager.
