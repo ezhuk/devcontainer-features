@@ -17,4 +17,7 @@ rm llvm.tar.xz
 ln -sf "${DIR}/bin/clang" /usr/local/bin/clang
 ln -sf "${DIR}/bin/clang++" /usr/local/bin/clang++
 
+ln -sf "${DIR}/bin/clang-format" /usr/local/bin/clang-format
+ln -sf "${DIR}/bin/clang-tidy" /usr/local/bin/clang-tidy
+
 clang --version
