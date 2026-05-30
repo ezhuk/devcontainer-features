@@ -1,6 +1,6 @@
 {
   "id": "bazel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Bazel",
   "description": "Install a Bazelisk release from the official repository.",
   "options": {
