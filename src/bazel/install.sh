@@ -2,6 +2,7 @@
 set -e
 
 VERSION="${VERSION:-1.29.0}"
+BUILDIFIER="${BUILDIFIER:8.5.1}"
 ROOT="${ROOT:-/usr/local/bin}"
 
 apt-get update
@@ -13,4 +14,8 @@ curl -fsSL -o "${ROOT}/bazelisk" "https://github.com/bazelbuild/bazelisk/release
 chmod +x "${ROOT}/bazelisk"
 ln -sf "${ROOT}/bazelisk" "${ROOT}/bazel"
 
+curl -fsSL -o "${ROOT}/buildifier" "https://github.com/bazelbuild/buildtools/releases/download/v${BUILDIFIER}/buildifier-linux-amd64"
+chmod +x "${ROOT}/buildifier"
+
 bazel version
+buildifier --version
