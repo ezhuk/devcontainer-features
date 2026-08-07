@@ -2,7 +2,7 @@
 set -e
 
 VERSION="${VERSION:-1.29.0}"
-BUILDIFIER="${BUILDIFIER:8.5.1}"
+BUILDIFIER="${BUILDIFIER:-8.5.1}"
 ROOT="${ROOT:-/usr/local/bin}"
 
 apt-get update
