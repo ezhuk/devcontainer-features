@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-VERSION="${VERSION:-0.11.16}"
+VERSION="${VERSION:-0.12.17}"
 PYTHON="${PYTHON:-3.12}"
 
 apt-get update
