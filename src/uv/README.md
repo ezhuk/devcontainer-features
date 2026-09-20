@@ -7,7 +7,7 @@ Installs a [uv](https://github.com/astral-sh/uv) release from the official repos
 ```json
 "features": {
   "ghcr.io/ezhuk/devcontainer-features/uv:1": {
-    "version": "0.11.16"
+    "version": "0.12.17"
   }
 }
 ```
@@ -16,4 +16,4 @@ Installs a [uv](https://github.com/astral-sh/uv) release from the official repos
 
 | Option   | Type   | Default | Description           |
 |----------|--------|---------|-----------------------|
-| version  | string | 0.11.16 | uv version to install |
+| version  | string | 0.12.17 | uv version to install |
