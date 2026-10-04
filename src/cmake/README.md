@@ -7,7 +7,7 @@ Installs a [CMake](https://github.com/kitware/cmake) release from the official r
 ```json
 "features": {
   "ghcr.io/ezhuk/devcontainer-features/cmake:1": {
-    "version": "4.3.1"
+    "version": "4.4.4"
   }
 }
 ```
@@ -16,4 +16,4 @@ Installs a [CMake](https://github.com/kitware/cmake) release from the official r
 
 | Option   | Type   | Default | Description              |
 |----------|--------|---------|--------------------------|
-| version  | string | 4.3.1   | CMake version to install |
+| version  | string | 4.4.4   | CMake version to install |
