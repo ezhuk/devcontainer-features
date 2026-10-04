@@ -1,12 +1,12 @@
 {
   "id": "cmake",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "CMake",
   "description": "Install a CMake release from the official repository.",
   "options": {
     "version": {
       "type": "string",
-      "default": "4.3.1",
+      "default": "4.4.4",
       "description": "CMake version to install."
     }
   },
