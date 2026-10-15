@@ -1,12 +1,12 @@
 {
   "id": "uv",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "uv",
   "description": "Install a uv release from the official repository.",
   "options": {
     "version": {
       "type": "string",
-      "default": "0.12.17",
+      "default": "0.13.1",
       "description": "uv version to install."
     }
   },
