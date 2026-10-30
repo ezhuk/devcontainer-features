@@ -7,7 +7,7 @@ rm -rf /var/lib/apt/lists/*
 
 curl -fsSL -o micromamba.tar.bz2 https://micro.mamba.pm/api/micromamba/linux-64/latest
 
-tar -xvjf micromamba.tar.bz2 -C /usr/local bin/micromamba --strip-components=1
+tar -xvjf micromamba.tar.bz2 -C /usr/local/bin --strip-components=1 bin/micromamba
 rm micromamba.tar.bz2
 
 chmod 755 /usr/local/bin/micromamba
