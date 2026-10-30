@@ -1,0 +1,9 @@
+{
+  "id": "micromamba",
+  "version": "1.0.0",
+  "name": "Micromamba",
+  "description": "Install the Micromamba package manager from the official distribution.",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
