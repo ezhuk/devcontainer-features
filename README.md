@@ -29,6 +29,7 @@ The collection includes the following features:
 - [cmake](https://github.com/ezhuk/devcontainer-features/tree/main/src/cmake) - Installs `CMake` build system.
 - [gcc](https://github.com/ezhuk/devcontainer-features/tree/main/src/gcc) - Installs `GCC` compiler collection.
 - [llvm](https://github.com/ezhuk/devcontainer-features/tree/main/src/llvm) - Installs `LLVM` compiler ifrastructure.
+- [micromamba](https://github.com/ezhuk/devcontainer-features/tree/main/src/micromamba) - Installs `Micromamba` package manager.
 - [ninja](https://github.com/ezhuk/devcontainer-features/tree/main/src/ninja) - Installs `Ninja` build system.
 - [node](https://github.com/ezhuk/devcontainer-features/tree/main/src/node) - Installs `Node.js` runtime environment.
 - [uv](https://github.com/ezhuk/devcontainer-features/tree/main/src/uv) - Installs `uv` package and project manager.
