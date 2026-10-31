@@ -1,14 +1,17 @@
 {
   "id": "gcc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "GCC",
-  "description": "Install a GCC release from xPack.",
+  "description": "Install a GCC release from conda-forge using Micromamba.",
   "options": {
     "version": {
       "type": "string",
-      "default": "15.2.0-1",
+      "default": "16.2.0",
       "description": "GCC version to install."
     }
+  },
+  "dependsOn": {
+    "ghcr.io/ezhuk/devcontainer-features/micromamba:1": {}
   },
   "installsAfter": [
     "ghcr.io/devcontainers/features/common-utils"
