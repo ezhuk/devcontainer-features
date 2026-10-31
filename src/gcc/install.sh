@@ -1,21 +1,19 @@
 #!/usr/bin/env bash
 set -e
 
-VERSION="${VERSION:-15.2.0-1}"
+VERSION="${VERSION:-16.2.0}"
 ROOT="${ROOT:-/opt/gcc/${VERSION}}"
 
-apt-get update
-apt-get install -y --no-install-recommends curl ca-certificates
-rm -rf /var/lib/apt/lists/*
+micromamba create -y \
+    -r /opt/micromamba \
+    -p "${ROOT}" \
+    --override-channels \
+    -c conda-forge \
+    "gcc=${VERSION}" \
+    "gxx=${VERSION}"
 
-curl -fsSL -o gcc.tar.gz "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v${VERSION}/xpack-gcc-${VERSION}-linux-x64.tar.gz"
-
-mkdir -p "${ROOT}"
-tar -xzf gcc.tar.gz -C "${ROOT}" --strip-components=1
-rm gcc.tar.gz
-
-ln -sf "${ROOT}/bin/gcc" /usr/local/bin/gcc
-ln -sf "${ROOT}/bin/g++" /usr/local/bin/g++
+ln -sf "${ROOT}/bin/x86_64-conda-linux-gnu-gcc" /usr/local/bin/gcc
+ln -sf "${ROOT}/bin/x86_64-conda-linux-gnu-g++" /usr/local/bin/g++
 
 gcc --version
 g++ --version
