@@ -1,12 +1,12 @@
 {
   "id": "vcpkg",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "vcpkg",
   "description": "Install a vcpkg release from the official repository.",
   "options": {
     "version": {
       "type": "string",
-      "default": "2026.07.29",
+      "default": "2026.10.16",
       "description": "vcpkg version to install."
     }
   },
