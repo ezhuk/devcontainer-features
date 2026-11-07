@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-VERSION="${VERSION:-1.29.0}"
-BUILDIFIER="${BUILDIFIER:-8.5.1}"
+VERSION="${VERSION:-1.30.0}"
+BUILDIFIER="${BUILDIFIER:-10.2.0}"
 ROOT="${ROOT:-/usr/local/bin}"
 
 apt-get update
