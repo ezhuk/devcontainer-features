@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-VERSION="${VERSION:-23.1.1}"
+VERSION="${VERSION:-23.1.5}"
 ROOT="${ROOT:-/opt/llvm/${VERSION}}"
 
 apt-get update
