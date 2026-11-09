@@ -1,12 +1,12 @@
 {
   "id": "llvm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "LLVM",
   "description": "Install an LLVM release from the official repository.",
   "options": {
     "version": {
       "type": "string",
-      "default": "23.1.1",
+      "default": "23.1.5",
       "description": "LLVM version to install."
     }
   },
