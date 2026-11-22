@@ -1,4 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:26",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu26.04",
+  "features": {
+    "ghcr.io/ezhuk/devcontainer-features/node:1": {},
+    "ghcr.io/ezhuk/devcontainer-features/uv:1": {}
+  },
   "postCreateCommand": "npm install -g @devcontainers/cli"
 }
